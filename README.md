@@ -13,15 +13,15 @@ Uses:
 
 1. Install Dependencies
 
-        `npm install`
+        npm install
 
 2. Write the version info to `../assets/version.ts`
 
-        `node version.js` 
+        node version.js 
 
 3. Start the server and view the results
 
-        `ionic serve`
+        ionic serve
 
 
 # What's Next
