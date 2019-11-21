@@ -13,11 +13,11 @@ Uses:
 
 1. Install Dependencies
 
-        `npm install` 
+        npm install 
 
 3. Start the server and view the results
 
-        `ionic serve`
+        ionic serve
 
 
 _There is a __postinstall__ script that creates the version.ts file used in the code._
