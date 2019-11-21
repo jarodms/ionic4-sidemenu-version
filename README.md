@@ -1,7 +1,9 @@
 # ionic4-sidemenu-version
 Ionic 4 with a Side menu and Version in the sidemenu - Based off of the starter template __sidemenu__
 
-### About
+![Test Image 1](Angular8-Ionic4-SideMenuVersion.png)
+
+# About
 The version # is read from `package.json` and then placed into `../assets/version.ts` so that it can be used within the app to display the version number in the footer of the side menu.
 
 Uses:
@@ -30,3 +32,5 @@ Look at `app.component.html` where the version info is used
 
 
 If you bump the version number in package.json, run `node version.js` at any time.
+
+
