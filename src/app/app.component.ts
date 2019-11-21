@@ -1,3 +1,4 @@
+import { VERSION } from '../assets/version';
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -13,6 +14,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   rootPage: any = HomePage;
+  versionNumber = VERSION.version;
 
   pages: Array<{title: string, component: any}>;
 
