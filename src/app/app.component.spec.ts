@@ -64,4 +64,14 @@ describe('AppComponent', () => {
     expect(menuItems[1].getAttribute('ng-reflect-router-link')).toEqual('/list');
   });
 
+  it('should have version number', async () => {
+    const fixture = await TestBed.createComponent(AppComponent);
+    await fixture.detectChanges();
+    const app = fixture.nativeElement;
+    const versionText = app.querySelector('#version').textContent;
+
+    expect(versionText).toContain('Version:');
+    // "Version: 0.0.1" length is 14
+    expect(versionText.length).toEqual(14);
+  });
 });
